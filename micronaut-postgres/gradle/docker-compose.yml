@@ -1,0 +1,36 @@
+version: '3.8'
+services:
+  micronaut-postgres-gradle:
+    image: <your-image-name>
+    container_name: <your-container-name>
+    networks:
+      - micronaut-postgres-gradle-network
+    build:
+      context: .
+    env_file: .env
+    depends_on:
+      - db
+    ports:
+      - ${APPLICATION_PORT_ON_DOCKER_HOST}:${APPLICATION_PORT_ON_CONTAINER}
+      - ${DEBUG_PORT_ON_DOCKER_HOST}:${DEBUG_PORT_ON_CONTAINER}
+    volumes:
+      - ./:/app
+    command: ./gradlew run -t
+
+  db:
+    container_name: postgres-container
+    image: postgres:14.1-alpine
+    env_file: .env
+    ports:
+      - ${DB_PORT_ON_DOCKER_HOST}:${DB_PORT_ON_CONTAINER}
+    volumes:
+      - db:/var/lib/postgresql/data
+    networks:
+      - micronaut-postgres-gradle-network
+
+
+volumes:
+  db:
+
+networks:
+  micronaut-postgres-gradle-network:
