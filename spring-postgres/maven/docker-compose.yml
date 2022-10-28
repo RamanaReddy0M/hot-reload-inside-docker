@@ -1,0 +1,35 @@
+version: '3.8'
+services:
+  spring-boot-postgres-maven:
+    image: <your-image-name>
+    container_name: <your-container-name>
+    networks:
+      - spring-boot-postgres-network
+    build:
+      context: .
+    env_file: .env
+    depends_on:
+      - db
+    ports:
+      - ${APPLICATION_PORT_ON_DOCKER_HOST}:${APPLICATION_PORT_ON_CONTAINER}
+      - ${DEBUG_PORT_ON_DOCKER_HOST}:${DEBUG_PORT_ON_CONTAINER}
+    volumes:
+      - ./:/app
+    command: ./mvnw spring-boot:run -Dspring-boot.run.jvmArguments="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:${DEBUG_PORT_ON_CONTAINER}"
+
+  db:
+    container_name: postgres-container
+    image: postgres:14.1-alpine
+    env_file: .env
+    ports:
+      - ${DB_PORT_ON_DOCKER_HOST}:${DB_PORT_ON_CONTAINER}
+    volumes:
+      - db:/var/lib/postgresql/data
+    networks:
+      - spring-boot-postgres-network
+
+volumes:
+  db:
+
+networks:
+  spring-boot-postgres-network:
