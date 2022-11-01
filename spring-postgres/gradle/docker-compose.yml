@@ -1,8 +1,8 @@
 version: '3.8'
 services:
   spring-boot-postgres-gradle:
-    image: <your-image-name>
-    container_name: <your-container-name>
+    image: spring-boot-postgres-gradle-image
+    container_name: spring-boot-postgres-gradle-container
     networks:
       - spring-boot-postgres-network
     build:

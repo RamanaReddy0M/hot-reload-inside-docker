@@ -1,8 +1,8 @@
 version: '3.8'
 services:
-  student-grading-micronaut:
-    image: <your-image-name>
-    container_name: <your-container-name>
+  micronaut-postgres-maven:
+    image: micronaut-postgres-maven-image
+    container_name: micronaut-postgres-maven-container
     networks:
       - student-grading-network
     build:
@@ -18,7 +18,7 @@ services:
     command: ./mvnw mn:run -Dmn.debug -Dmn.debug.host=* -Dmn.debug.port=${DEBUG_PORT_ON_CONTAINER}
 
   db:
-    container_name: student-grading-db
+    container_name: postgres-container
     image: postgres:14.1-alpine
     env_file: .env
     ports:

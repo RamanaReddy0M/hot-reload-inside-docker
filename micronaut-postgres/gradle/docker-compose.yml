@@ -1,8 +1,8 @@
 version: '3.8'
 services:
   micronaut-postgres-gradle:
-    image: <your-image-name>
-    container_name: <your-container-name>
+    image: micronaut-postgres-gradle-image
+    container_name: micronaut-postgres-gradle-container
     networks:
       - micronaut-postgres-gradle-network
     build:
