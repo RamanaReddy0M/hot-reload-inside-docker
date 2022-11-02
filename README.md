@@ -21,10 +21,10 @@ like [modd](https://github.com/cortesi/modd) if framework doesn't support hot re
 To have same behaviour inside docker we have created `Dockerfile` and `docker-compose.yml` templates
 for the java related technologies like SpringBoot and Micronaut:
 
-| Framework      | Database | <img src="./resources/maven-icon.svg" alt="maven" width="100" height="60">                                       | <img src="./resources/gradle-icon.svg" alt="maven" width="100" height="45"> |
-|----------------|----------|------------------------------------------------------------------------------------------------------------------|-------|
-| __SpringBoot__ | postgres | [<img src="./resources/folder_type_docker.svg" alt="folder" width="80" height="40"/>](./spring-postgres/maven)    |[<img src="./resources/folder_type_docker.svg" alt="folder" width="80" height="40"/>](./spring-postgres/gradle)|
-| __Micronaut__  | postgres | [<img src="./resources/folder_type_docker.svg" alt="folder" width="80" height="40"/>](./micronaut-postgres/maven) | [<img src="./resources/folder_type_docker.svg" alt="folder" width="80" height="40"/>](./micronaut-postgres/gradle)|
+| Framework      | Database | <img src="./resources/maven-icon.svg" alt="maven" width="100" height="60">                                  | <img src="./resources/gradle-icon.svg" alt="maven" width="100" height="45"> |
+|----------------|----------|-------------------------------------------------------------------------------------------------------------|-------|
+| __SpringBoot__ | postgres | [<img src="./resources/folder_type_docker.svg" alt="folder" width="80" height="40"/>](./spring-postgres)    |[<img src="./resources/folder_type_docker.svg" alt="folder" width="80" height="40"/>](./spring-postgres)|
+| __Micronaut__  | postgres | [<img src="./resources/folder_type_docker.svg" alt="folder" width="80" height="40"/>](./micronaut-postgres) | [<img src="./resources/folder_type_docker.svg" alt="folder" width="80" height="40"/>](./micronaut-postgres)|
 
 Click on <img src="./resources/folder_type_docker.svg" alt="folder" width="40" height="30"/> icon
 based on framework and build tool used in project to navigate to specific docker files.
