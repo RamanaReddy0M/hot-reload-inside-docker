@@ -3,6 +3,10 @@
 If you're looking to run a SpringBoot or Micronaut application inside docker with hot reload then
 you can use this repo.
 
+<video width="320" height="240" controls>
+  <source src="./resources/hot-reload-inside-docker-video.mp4" type="video/mp4">
+</video>
+
 ### Outcomes
 
 - Application built inside docker.
