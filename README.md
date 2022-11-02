@@ -3,7 +3,9 @@
 If you're looking to run a SpringBoot or Micronaut application inside docker with hot reload then
 you can use this repo.
 
-https://user-images.githubusercontent.com/90540245/199543711-e06daab7-6860-4940-83ce-7adceb49d588.mp4
+
+https://user-images.githubusercontent.com/90540245/199573628-164be40b-4eda-41d5-b743-1e6ca8ef3221.mp4
+
 
 ### Outcomes
 
