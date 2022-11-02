@@ -46,11 +46,11 @@ __Step-1:__ Click on __Edit Configuration__ in IntelliJIDEA
 
 __Step-2:__ Click on `+` button and select `Remote JVM Debug`
 
-<img src="./resources/remote-debug-2.png" width="500" height="300">
+<img src="./resources/remote-debug-2.png" width="500" height="500">
 
 __Step-3:__ Change debugger __Name__ and __Port__ and click on __Apply__.
 
-<img src="./resources/remote-debug-3.png" width="500" height="300">
+<img src="./resources/remote-debug-3.png" width="800" height="500">
 
 __Step-4:__ Run the
 command `./mvnw spring-boot:run -Dspring-boot.run.jvmArguments="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:8000"`
