@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhot_reload_inside_docker_docs=self.webpackChunkhot_reload_inside_docker_docs||[]).push([[9580],{4678:o=>{o.exports=JSON.parse('{"label":"docusaurus","permalink":"/hot-reload-inside-docker/docs/blog/tags/docusaurus","allTagsPath":"/hot-reload-inside-docker/docs/blog/tags","count":4}')}}]);
