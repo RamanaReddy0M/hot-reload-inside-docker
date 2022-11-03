@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhot_reload_inside_docker_docs=self.webpackChunkhot_reload_inside_docker_docs||[]).push([[7779],{8143:o=>{o.exports=JSON.parse('{"label":"facebook","permalink":"/hot-reload-inside-docker/docs/intro/blog/tags/facebook","allTagsPath":"/hot-reload-inside-docker/docs/intro/blog/tags","count":1}')}}]);
