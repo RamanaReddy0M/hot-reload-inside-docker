@@ -57,17 +57,17 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'One2N',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'One2N logo  ',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'intro', 
             position: 'left',
-            label: 'Tutorial',
+            label: 'docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {

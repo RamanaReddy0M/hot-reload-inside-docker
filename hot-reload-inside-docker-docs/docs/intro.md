@@ -2,7 +2,34 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Hot Reload Inside Docker
+
+## What is Hot Relaod?
+Run the application first time by clicking run button in IDE. While application is running, make some
+changes to the code in `src` directory and save the changes. This time code changes
+should be auto-compiled and updated without having to restart the application manually, and that is
+what we call a __Hot Reload__.
+
+## Outcomes
+
+- Application built inside docker.
+- Code changes are auto-compiled and updated without having to restart the app or container.
+- Remote debugging using IntelliJIDEA.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
