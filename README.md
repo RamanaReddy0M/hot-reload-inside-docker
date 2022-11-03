@@ -43,3 +43,5 @@ based on framework and build tool used in project to navigate to specific docker
 |          |remote-debugging| Just run the command `./mvnw mn:run -Dmn.debug -Dmn.debug.host=* -Dmn.debug.port=8000` inside working directory.| __step-1:__ Add task </br>`run { jvmArgs=["-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:8000"] }`</br> to `build.gradle`</br></br> __step-2__: Run `./gradlew run -t` inside working directory.
 
 ## Remote Debugging Using IntelliJIDEA
+
+https://user-images.githubusercontent.com/90540245/199643735-1462e99f-61ba-4e6b-84f9-6ae60fb3b686.mp4
