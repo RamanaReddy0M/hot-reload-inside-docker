@@ -106,8 +106,7 @@ technologies(SpringBoot / Micronaut) between the Maven and Gradle build tools.
 https://user-images.githubusercontent.com/90540245/199643735-1462e99f-61ba-4e6b-84f9-6ae60fb3b686.mp4
 
 > __Note:__ Check
->
-out [Comparison between Framework, Feature and Build Tools for Hot-Reload and Remote-Debugging](https://github.com/RamanaReddy0M/hot-reload-inside-docker#comparison-between-framework-feature-and-build-tools-for-hot-reload-and-remote-debugging)
+> out [Comparison between Framework, Feature and Build Tools for Hot-Reload and Remote-Debugging](https://github.com/RamanaReddy0M/hot-reload-inside-docker#comparison-between-framework-feature-and-build-tools-for-hot-reload-and-remote-debugging)
 > section
 > if you are using different build tool or framework.
 
