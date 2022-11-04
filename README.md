@@ -1,5 +1,6 @@
-# hot-reload-inside-docker
+[![Documentation](https://img.shields.io/static/v1?label=Documentation&message=v1.0&color=<COLOR>)](https://ramanareddy0m.github.io/hot-reload-inside-docker/docs/intro)
 
+# hot-reload-inside-docker
 If you're looking to run a SpringBoot or Micronaut application inside docker with hot reload then
 you can use this repo.
 
