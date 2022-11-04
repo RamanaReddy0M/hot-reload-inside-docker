@@ -1,6 +1,7 @@
 [![Documentation](https://img.shields.io/static/v1?label=Documentation&message=v1.0&color=<COLOR>)](https://ramanareddy0m.github.io/hot-reload-inside-docker/docs/intro)
 
 # hot-reload-inside-docker
+
 If you're looking to run a SpringBoot or Micronaut application inside docker with hot reload then
 you can use this repo.
 
@@ -28,7 +29,8 @@ what we call a __Hot Reload__.
 
 Most of the frameworks support this feature locally. To have same behaviour inside
 docker we have created `Dockerfile` and `docker-compose.yml` templates
-for the java related technologies like SpringBoot and Micronaut.
+for the java related technologies like SpringBoot and Micronaut. Additionally, you can debug the
+application running inside docker through IntelliJIDEA. To know more about it refer [Remote Debugging Using IntellijIDEA. ](https://github.com/RamanaReddy0M/hot-reload-inside-docker/blob/master/README.md#remote-debugging-using-intellijidea)
 
 ## Quick Start
 
@@ -79,7 +81,8 @@ There are two ways to solve this issue:
 - Mounting `.m2` / `.gradle` from Docker Host to Docker container.
 - Caching all the dependencies while building the Docker image
 
-Mounting root level directories is not an option to choose. But there are some other issue with Gradle
+Mounting root level directories is not an option to choose. But there are some other issue with
+Gradle
 caching, if you are mounting `.gradle` and running the application with Gradle build tool within
 Docker container, then docker acquires lock for gradle cache, that means we
 can't run any application with Gradle build in local machine until Docker container is stopped.
