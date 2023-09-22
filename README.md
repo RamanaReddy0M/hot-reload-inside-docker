@@ -1,3 +1,5 @@
+[![Documentation](https://img.shields.io/static/v1?label=Documentation&message=v1.0&color=<COLOR>)](https://ramanareddy0m.github.io/hot-reload-inside-docker/docs/intro)
+
 # hot-reload-inside-docker
 
 If you're looking to run a SpringBoot or Micronaut application inside docker with hot reload then
@@ -109,5 +111,3 @@ https://user-images.githubusercontent.com/90540245/199643735-1462e99f-61ba-4e6b-
 > out [Comparison between Framework, Feature and Build Tools for Hot-Reload and Remote-Debugging](https://github.com/RamanaReddy0M/hot-reload-inside-docker#comparison-between-framework-feature-and-build-tools-for-hot-reload-and-remote-debugging)
 > section
 > if you are using different build tool or framework.
-
-[![Documentation](https://img.shields.io/static/v1?label=Documentation&message=v1.0&color=<COLOR>)](https://ramanareddy0m.github.io/hot-reload-inside-docker/docs/intro)
